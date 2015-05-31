@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195280441AC9347C0051D005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195280431AC9347C0051D005 /* AppDelegate.swift */; };
+		195280461AC9347C0051D005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195280451AC9347C0051D005 /* ViewController.swift */; };
+		195280491AC9347C0051D005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195280471AC9347C0051D005 /* Main.storyboard */; };
+		1952804B1AC9347C0051D005 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1952804A1AC9347C0051D005 /* Images.xcassets */; };
+		1952804E1AC9347C0051D005 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1952804C1AC9347C0051D005 /* LaunchScreen.xib */; };
+		1952805A1AC9347C0051D005 /* BinaryResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195280591AC9347C0051D005 /* BinaryResponseTests.swift */; };
+		195280641AC94A550051D005 /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 195280631AC94A550051D005 /* WorklightAPI */; };
+		195280661AC94A610051D005 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 195280651AC94A610051D005 /* worklight.plist */; };
+		195280681AC94BB50051D005 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280671AC94BB50051D005 /* SystemConfiguration.framework */; };
+		1952806A1AC94BC10051D005 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280691AC94BC10051D005 /* sqlcipher.framework */; };
+		1952806C1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1952806B1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a */; };
+		1952806E1AC94BD90051D005 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1952806D1AC94BD90051D005 /* MobileCoreServices.framework */; };
+		195280701AC94BE10051D005 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1952806F1AC94BE10051D005 /* CoreData.framework */; };
+		195280721AC94BE70051D005 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280711AC94BE70051D005 /* CoreLocation.framework */; };
+		195280741AC94BEF0051D005 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280731AC94BEF0051D005 /* Security.framework */; };
+		195280761AC94BFB0051D005 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280751AC94BFB0051D005 /* libz.dylib */; };
+		195280781AC94C040051D005 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280771AC94C040051D005 /* libc++.dylib */; };
+		1952807A1AC94C0C0051D005 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280791AC94C0C0051D005 /* libstdc++.6.dylib */; };
+		1952807C1AC94E100051D005 /* BinaryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1952807B1AC94E100051D005 /* BinaryDelegate.swift */; };
+		1952807E1AC964110051D005 /* MyConnectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1952807D1AC964110051D005 /* MyConnectListener.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		195280541AC9347C0051D005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195280361AC9347C0051D005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1952803D1AC9347C0051D005;
+			remoteInfo = BinaryResponse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1952803E1AC9347C0051D005 /* BinaryResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinaryResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195280421AC9347C0051D005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195280431AC9347C0051D005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		195280451AC9347C0051D005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		195280481AC9347C0051D005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1952804A1AC9347C0051D005 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1952804D1AC9347C0051D005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		195280531AC9347C0051D005 /* BinaryResponseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryResponseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195280581AC9347C0051D005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195280591AC9347C0051D005 /* BinaryResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryResponseTests.swift; sourceTree = "<group>"; };
+		195280631AC94A550051D005 /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
+		195280651AC94A610051D005 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+		195280671AC94BB50051D005 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		195280691AC94BC10051D005 /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlcipher.framework; path = WorklightAPI/Frameworks/sqlcipher.framework; sourceTree = "<group>"; };
+		1952806B1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWorklightStaticLibProjectNative.a; path = WorklightAPI/libWorklightStaticLibProjectNative.a; sourceTree = "<group>"; };
+		1952806D1AC94BD90051D005 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1952806F1AC94BE10051D005 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		195280711AC94BE70051D005 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		195280731AC94BEF0051D005 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		195280751AC94BFB0051D005 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		195280771AC94C040051D005 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		195280791AC94C0C0051D005 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		1952807B1AC94E100051D005 /* BinaryDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryDelegate.swift; sourceTree = "<group>"; };
+		1952807D1AC964110051D005 /* MyConnectListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnectListener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1952803B1AC9347C0051D005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1952806C1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a in Frameworks */,
+				1952807A1AC94C0C0051D005 /* libstdc++.6.dylib in Frameworks */,
+				195280781AC94C040051D005 /* libc++.dylib in Frameworks */,
+				195280761AC94BFB0051D005 /* libz.dylib in Frameworks */,
+				195280741AC94BEF0051D005 /* Security.framework in Frameworks */,
+				195280721AC94BE70051D005 /* CoreLocation.framework in Frameworks */,
+				195280701AC94BE10051D005 /* CoreData.framework in Frameworks */,
+				1952806E1AC94BD90051D005 /* MobileCoreServices.framework in Frameworks */,
+				195280681AC94BB50051D005 /* SystemConfiguration.framework in Frameworks */,
+				1952806A1AC94BC10051D005 /* sqlcipher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195280501AC9347C0051D005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195280351AC9347C0051D005 = {
+			isa = PBXGroup;
+			children = (
+				195280791AC94C0C0051D005 /* libstdc++.6.dylib */,
+				195280771AC94C040051D005 /* libc++.dylib */,
+				195280751AC94BFB0051D005 /* libz.dylib */,
+				195280731AC94BEF0051D005 /* Security.framework */,
+				195280711AC94BE70051D005 /* CoreLocation.framework */,
+				1952806F1AC94BE10051D005 /* CoreData.framework */,
+				1952806D1AC94BD90051D005 /* MobileCoreServices.framework */,
+				1952806B1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a */,
+				195280691AC94BC10051D005 /* sqlcipher.framework */,
+				195280671AC94BB50051D005 /* SystemConfiguration.framework */,
+				195280651AC94A610051D005 /* worklight.plist */,
+				195280631AC94A550051D005 /* WorklightAPI */,
+				195280401AC9347C0051D005 /* BinaryResponse */,
+				195280561AC9347C0051D005 /* BinaryResponseTests */,
+				1952803F1AC9347C0051D005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1952803F1AC9347C0051D005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1952803E1AC9347C0051D005 /* BinaryResponse.app */,
+				195280531AC9347C0051D005 /* BinaryResponseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195280401AC9347C0051D005 /* BinaryResponse */ = {
+			isa = PBXGroup;
+			children = (
+				1952807D1AC964110051D005 /* MyConnectListener.swift */,
+				1952807B1AC94E100051D005 /* BinaryDelegate.swift */,
+				195280431AC9347C0051D005 /* AppDelegate.swift */,
+				195280451AC9347C0051D005 /* ViewController.swift */,
+				195280471AC9347C0051D005 /* Main.storyboard */,
+				1952804A1AC9347C0051D005 /* Images.xcassets */,
+				1952804C1AC9347C0051D005 /* LaunchScreen.xib */,
+				195280411AC9347C0051D005 /* Supporting Files */,
+			);
+			path = BinaryResponse;
+			sourceTree = "<group>";
+		};
+		195280411AC9347C0051D005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				195280421AC9347C0051D005 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		195280561AC9347C0051D005 /* BinaryResponseTests */ = {
+			isa = PBXGroup;
+			children = (
+				195280591AC9347C0051D005 /* BinaryResponseTests.swift */,
+				195280571AC9347C0051D005 /* Supporting Files */,
+			);
+			path = BinaryResponseTests;
+			sourceTree = "<group>";
+		};
+		195280571AC9347C0051D005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				195280581AC9347C0051D005 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1952803D1AC9347C0051D005 /* BinaryResponse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1952805D1AC9347C0051D005 /* Build configuration list for PBXNativeTarget "BinaryResponse" */;
+			buildPhases = (
+				1952803A1AC9347C0051D005 /* Sources */,
+				1952803B1AC9347C0051D005 /* Frameworks */,
+				1952803C1AC9347C0051D005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinaryResponse;
+			productName = BinaryResponse;
+			productReference = 1952803E1AC9347C0051D005 /* BinaryResponse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		195280521AC9347C0051D005 /* BinaryResponseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195280601AC9347C0051D005 /* Build configuration list for PBXNativeTarget "BinaryResponseTests" */;
+			buildPhases = (
+				1952804F1AC9347C0051D005 /* Sources */,
+				195280501AC9347C0051D005 /* Frameworks */,
+				195280511AC9347C0051D005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195280551AC9347C0051D005 /* PBXTargetDependency */,
+			);
+			name = BinaryResponseTests;
+			productName = BinaryResponseTests;
+			productReference = 195280531AC9347C0051D005 /* BinaryResponseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195280361AC9347C0051D005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Sample;
+				TargetAttributes = {
+					1952803D1AC9347C0051D005 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					195280521AC9347C0051D005 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1952803D1AC9347C0051D005;
+					};
+				};
+			};
+			buildConfigurationList = 195280391AC9347C0051D005 /* Build configuration list for PBXProject "BinaryResponse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 195280351AC9347C0051D005;
+			productRefGroup = 1952803F1AC9347C0051D005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1952803D1AC9347C0051D005 /* BinaryResponse */,
+				195280521AC9347C0051D005 /* BinaryResponseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1952803C1AC9347C0051D005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195280491AC9347C0051D005 /* Main.storyboard in Resources */,
+				195280641AC94A550051D005 /* WorklightAPI in Resources */,
+				1952804E1AC9347C0051D005 /* LaunchScreen.xib in Resources */,
+				1952804B1AC9347C0051D005 /* Images.xcassets in Resources */,
+				195280661AC94A610051D005 /* worklight.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195280511AC9347C0051D005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1952803A1AC9347C0051D005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1952807E1AC964110051D005 /* MyConnectListener.swift in Sources */,
+				195280461AC9347C0051D005 /* ViewController.swift in Sources */,
+				195280441AC9347C0051D005 /* AppDelegate.swift in Sources */,
+				1952807C1AC94E100051D005 /* BinaryDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1952804F1AC9347C0051D005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1952805A1AC9347C0051D005 /* BinaryResponseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		195280551AC9347C0051D005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1952803D1AC9347C0051D005 /* BinaryResponse */;
+			targetProxy = 195280541AC9347C0051D005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		195280471AC9347C0051D005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195280481AC9347C0051D005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1952804C1AC9347C0051D005 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1952804D1AC9347C0051D005 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1952805B1AC9347C0051D005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1952805C1AC9347C0051D005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1952805E1AC9347C0051D005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/WorklightAPI/include",
+				);
+				INFOPLIST_FILE = BinaryResponse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/WorklightAPI/include/WLSwiftBridgingHeader.h";
+			};
+			name = Debug;
+		};
+		1952805F1AC9347C0051D005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/WorklightAPI/include",
+				);
+				INFOPLIST_FILE = BinaryResponse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/WorklightAPI/include/WLSwiftBridgingHeader.h";
+			};
+			name = Release;
+		};
+		195280611AC9347C0051D005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BinaryResponseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinaryResponse.app/BinaryResponse";
+			};
+			name = Debug;
+		};
+		195280621AC9347C0051D005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BinaryResponseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinaryResponse.app/BinaryResponse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195280391AC9347C0051D005 /* Build configuration list for PBXProject "BinaryResponse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1952805B1AC9347C0051D005 /* Debug */,
+				1952805C1AC9347C0051D005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1952805D1AC9347C0051D005 /* Build configuration list for PBXNativeTarget "BinaryResponse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1952805E1AC9347C0051D005 /* Debug */,
+				1952805F1AC9347C0051D005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195280601AC9347C0051D005 /* Build configuration list for PBXNativeTarget "BinaryResponseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195280611AC9347C0051D005 /* Debug */,
+				195280621AC9347C0051D005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 195280361AC9347C0051D005 /* Project object */;
+}
