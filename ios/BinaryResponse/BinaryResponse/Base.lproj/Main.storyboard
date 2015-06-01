@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X7Q-12-CIX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X7Q-12-CIX">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -17,11 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yrs-vB-74F">
-                                <rect key="frame" x="64" y="187" width="200" height="200"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esL-Hh-eDT">
-                                <rect key="frame" x="24" y="106" width="63" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esL-Hh-eDT">
+                                <rect key="frame" x="16" y="101" width="568" height="30"/>
                                 <state key="normal" title="Generate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -29,25 +26,33 @@
                                     <action selector="generate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5YS-lQ-7JX"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5oo-Xz-6xQ">
-                                <rect key="frame" x="116" y="68" width="196" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5oo-Xz-6xQ">
+                                <rect key="frame" x="116" y="69" width="468" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter Code:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85h-Db-70Y">
-                                <rect key="frame" x="16" y="77" width="92" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Code:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85h-Db-70Y">
+                                <rect key="frame" x="16" y="72" width="92" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yrs-vB-74F">
+                                <rect key="frame" x="200" y="139" width="200" height="200"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="85h-Db-70Y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Dhc-J6-C5k"/>
-                            <constraint firstItem="85h-Db-70Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="EWs-Yw-Q0i"/>
-                            <constraint firstItem="esL-Hh-eDT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Prh-kl-i8F"/>
-                            <constraint firstItem="esL-Hh-eDT" firstAttribute="top" secondItem="85h-Db-70Y" secondAttribute="bottom" constant="8" id="imF-h5-Unl"/>
-                            <constraint firstItem="5oo-Xz-6xQ" firstAttribute="leading" secondItem="85h-Db-70Y" secondAttribute="trailing" constant="8" id="mm2-iD-A2T"/>
+                            <constraint firstItem="85h-Db-70Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JTM-GW-nFy"/>
+                            <constraint firstAttribute="centerX" secondItem="Yrs-vB-74F" secondAttribute="centerX" id="JhC-Xb-I6J"/>
+                            <constraint firstItem="5oo-Xz-6xQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="VCa-Of-fpu"/>
+                            <constraint firstItem="5oo-Xz-6xQ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ZTK-wM-DeP"/>
+                            <constraint firstItem="Yrs-vB-74F" firstAttribute="top" secondItem="esL-Hh-eDT" secondAttribute="bottom" constant="8" id="Ziu-VR-cGg"/>
+                            <constraint firstItem="85h-Db-70Y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fsP-dH-LCg"/>
+                            <constraint firstItem="5oo-Xz-6xQ" firstAttribute="leading" secondItem="85h-Db-70Y" secondAttribute="trailing" constant="8" id="lSq-L1-w9J"/>
+                            <constraint firstItem="esL-Hh-eDT" firstAttribute="top" secondItem="85h-Db-70Y" secondAttribute="bottom" constant="8" id="nFP-LT-bi3"/>
+                            <constraint firstItem="esL-Hh-eDT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nSA-0P-6rJ"/>
+                            <constraint firstItem="esL-Hh-eDT" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="y0W-ju-dc5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Get QR Code" id="J5Y-qe-6vo"/>
