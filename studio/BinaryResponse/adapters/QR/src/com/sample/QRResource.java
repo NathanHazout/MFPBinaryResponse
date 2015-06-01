@@ -28,9 +28,6 @@ import com.worklight.core.auth.OAuthSecurity;
 
 @Path("/")
 public class QRResource {
-	/*
-	 * For more info on JAX-RS see https://jsr311.java.net/nonav/releases/1.1/index.html
-	 */
 		
 	//Define logger (Standard java.util.Logger)
 	static Logger logger = Logger.getLogger(QRResource.class.getName());
