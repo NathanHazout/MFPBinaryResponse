@@ -25,12 +25,13 @@ class ViewController: UIViewController {
 
     @IBAction func generate(sender: UIButton) {
         
-        let request = WLResourceRequest(URL: NSURL(string: "/adapters/QR/" + self.code.text), method: WLHttpMethodGet)
+        var escapedString = self.code.text.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
         
-        var delegate = BinaryDelegate(imageView: self.imageView)
-        
-        
-        request.sendWithDelegate(delegate)
+        if(escapedString != nil){
+            let request = WLResourceRequest(URL: NSURL(string: "/adapters/QR/" + escapedString!), method: WLHttpMethodGet)
+            var delegate = BinaryDelegate(imageView: self.imageView)
+            request.sendWithDelegate(delegate)
+        }
     
     }
     
