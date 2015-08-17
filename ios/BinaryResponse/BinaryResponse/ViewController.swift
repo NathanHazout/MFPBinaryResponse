@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IBMMobileFirstPlatformFoundation
 
 class ViewController: UIViewController {
 

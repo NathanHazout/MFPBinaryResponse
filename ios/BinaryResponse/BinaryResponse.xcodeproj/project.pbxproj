@@ -13,11 +13,8 @@
 		1952804B1AC9347C0051D005 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1952804A1AC9347C0051D005 /* Images.xcassets */; };
 		1952804E1AC9347C0051D005 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1952804C1AC9347C0051D005 /* LaunchScreen.xib */; };
 		1952805A1AC9347C0051D005 /* BinaryResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195280591AC9347C0051D005 /* BinaryResponseTests.swift */; };
-		195280641AC94A550051D005 /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 195280631AC94A550051D005 /* WorklightAPI */; };
 		195280661AC94A610051D005 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 195280651AC94A610051D005 /* worklight.plist */; };
 		195280681AC94BB50051D005 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280671AC94BB50051D005 /* SystemConfiguration.framework */; };
-		1952806A1AC94BC10051D005 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280691AC94BC10051D005 /* sqlcipher.framework */; };
-		1952806C1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1952806B1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a */; };
 		1952806E1AC94BD90051D005 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1952806D1AC94BD90051D005 /* MobileCoreServices.framework */; };
 		195280701AC94BE10051D005 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1952806F1AC94BE10051D005 /* CoreData.framework */; };
 		195280721AC94BE70051D005 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280711AC94BE70051D005 /* CoreLocation.framework */; };
@@ -27,6 +24,9 @@
 		1952807A1AC94C0C0051D005 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 195280791AC94C0C0051D005 /* libstdc++.6.dylib */; };
 		1952807C1AC94E100051D005 /* BinaryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1952807B1AC94E100051D005 /* BinaryDelegate.swift */; };
 		1952807E1AC964110051D005 /* MyConnectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1952807D1AC964110051D005 /* MyConnectListener.swift */; };
+		1959D3DC1B81D9DE001DC015 /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 1959D3DB1B81D9DE001DC015 /* WorklightAPI */; };
+		1959D3DE1B81DA0C001DC015 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1959D3DD1B81DA0C001DC015 /* IBMMobileFirstPlatformFoundation.framework */; };
+		1959D3E01B81DA10001DC015 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1959D3DF1B81DA10001DC015 /* sqlcipher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +50,8 @@
 		195280531AC9347C0051D005 /* BinaryResponseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryResponseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		195280581AC9347C0051D005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		195280591AC9347C0051D005 /* BinaryResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryResponseTests.swift; sourceTree = "<group>"; };
-		195280631AC94A550051D005 /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
 		195280651AC94A610051D005 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
 		195280671AC94BB50051D005 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		195280691AC94BC10051D005 /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlcipher.framework; path = WorklightAPI/Frameworks/sqlcipher.framework; sourceTree = "<group>"; };
-		1952806B1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWorklightStaticLibProjectNative.a; path = WorklightAPI/libWorklightStaticLibProjectNative.a; sourceTree = "<group>"; };
 		1952806D1AC94BD90051D005 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1952806F1AC94BE10051D005 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		195280711AC94BE70051D005 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -64,6 +61,9 @@
 		195280791AC94C0C0051D005 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		1952807B1AC94E100051D005 /* BinaryDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryDelegate.swift; sourceTree = "<group>"; };
 		1952807D1AC964110051D005 /* MyConnectListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnectListener.swift; sourceTree = "<group>"; };
+		1959D3DB1B81D9DE001DC015 /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
+		1959D3DD1B81DA0C001DC015 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundation.framework; path = WorklightAPI/Frameworks/IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
+		1959D3DF1B81DA10001DC015 /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlcipher.framework; path = WorklightAPI/Frameworks/sqlcipher.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1952806C1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a in Frameworks */,
+				1959D3DE1B81DA0C001DC015 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				1959D3E01B81DA10001DC015 /* sqlcipher.framework in Frameworks */,
 				1952807A1AC94C0C0051D005 /* libstdc++.6.dylib in Frameworks */,
 				195280781AC94C040051D005 /* libc++.dylib in Frameworks */,
 				195280761AC94BFB0051D005 /* libz.dylib in Frameworks */,
@@ -80,7 +81,6 @@
 				195280701AC94BE10051D005 /* CoreData.framework in Frameworks */,
 				1952806E1AC94BD90051D005 /* MobileCoreServices.framework in Frameworks */,
 				195280681AC94BB50051D005 /* SystemConfiguration.framework in Frameworks */,
-				1952806A1AC94BC10051D005 /* sqlcipher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +97,9 @@
 		195280351AC9347C0051D005 = {
 			isa = PBXGroup;
 			children = (
+				1959D3DF1B81DA10001DC015 /* sqlcipher.framework */,
+				1959D3DD1B81DA0C001DC015 /* IBMMobileFirstPlatformFoundation.framework */,
+				1959D3DB1B81D9DE001DC015 /* WorklightAPI */,
 				195280791AC94C0C0051D005 /* libstdc++.6.dylib */,
 				195280771AC94C040051D005 /* libc++.dylib */,
 				195280751AC94BFB0051D005 /* libz.dylib */,
@@ -104,11 +107,8 @@
 				195280711AC94BE70051D005 /* CoreLocation.framework */,
 				1952806F1AC94BE10051D005 /* CoreData.framework */,
 				1952806D1AC94BD90051D005 /* MobileCoreServices.framework */,
-				1952806B1AC94BD00051D005 /* libWorklightStaticLibProjectNative.a */,
-				195280691AC94BC10051D005 /* sqlcipher.framework */,
 				195280671AC94BB50051D005 /* SystemConfiguration.framework */,
 				195280651AC94A610051D005 /* worklight.plist */,
-				195280631AC94A550051D005 /* WorklightAPI */,
 				195280401AC9347C0051D005 /* BinaryResponse */,
 				195280561AC9347C0051D005 /* BinaryResponseTests */,
 				1952803F1AC9347C0051D005 /* Products */,
@@ -245,7 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				195280491AC9347C0051D005 /* Main.storyboard in Resources */,
-				195280641AC94A550051D005 /* WorklightAPI in Resources */,
+				1959D3DC1B81D9DE001DC015 /* WorklightAPI in Resources */,
 				1952804E1AC9347C0051D005 /* LaunchScreen.xib in Resources */,
 				1952804B1AC9347C0051D005 /* Images.xcassets in Resources */,
 				195280661AC94A610051D005 /* worklight.plist in Resources */,
@@ -401,7 +401,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/WorklightAPI/include",
 				);
 				INFOPLIST_FILE = BinaryResponse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -411,7 +410,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/WorklightAPI/include/WLSwiftBridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -426,7 +425,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/WorklightAPI/include",
 				);
 				INFOPLIST_FILE = BinaryResponse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -436,7 +434,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/WorklightAPI/include/WLSwiftBridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};

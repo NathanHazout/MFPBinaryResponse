@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IBMMobileFirstPlatformFoundation
 
 class MyConnectListener: NSObject, WLDelegate {
     func onSuccess(response: WLResponse!) {
