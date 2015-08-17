@@ -1,18 +1,18 @@
-#Sun May 31 15:12:52 IDT 2015
-wl_version=7.0.0.00.20150531-0841
+#Mon Aug 17 11:54:11 IDT 2015
+wl_version=7.1.0.00.20150807-0630
 analytics.ipad=2554529831
 wl_compatible_version=
-base.ipad=4193865593
-base.android=4116665792
+base.ipad=2170286215
+base.android=2762270245
 encoding/<project>=UTF-8
-fipshttp.ipad=1503308747
+fipshttp.ipad=761882626
 analytics.iphone=2554529831
-base.iphone=4193865593
-jsonstore.windowsphone8=3932880156
+base.iphone=2170286215
+jsonstore.windowsphone8=725028975
 jsonstore.android=2033967206
-common.android=3951631686
+common.android=2602476710
 eclipse.preferences.version=1
-fipshttp.iphone=1503308747
-base.windowsphone8=155364381
-fipshttp.android=3456286054
+fipshttp.iphone=761882626
+base.windowsphone8=1382597216
+fipshttp.android=2225966711
 analytics.android=963009885
