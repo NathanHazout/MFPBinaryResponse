@@ -16,8 +16,10 @@ import com.worklight.wlclient.api.WLResourceRequest;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
     private Button buttonInvoke = null;
@@ -41,11 +43,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 try {
                     Editable input = codeInput.getText();
-                    String code = input.toString();
+                    String code = URLEncoder.encode(input.toString(), "utf-8");
                     URI adapterPath = new URI("/adapters/QR/" + code);
                     WLResourceRequest request = new WLResourceRequest(adapterPath,WLResourceRequest.GET);
                     request.send(new MyInvokeListener(activity));
                 } catch (URISyntaxException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedEncodingException e) {
                     e.printStackTrace();
                 }
 
