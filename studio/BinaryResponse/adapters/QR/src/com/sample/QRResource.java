@@ -28,7 +28,7 @@ import com.worklight.core.auth.OAuthSecurity;
 
 @Path("/")
 public class QRResource {
-		
+
 	//Define logger (Standard java.util.Logger)
 	static Logger logger = Logger.getLogger(QRResource.class.getName());
 
@@ -42,12 +42,12 @@ public class QRResource {
 		QRCodeWriter writter = new QRCodeWriter();
 
 		ByteArrayOutputStream stream = new ByteArrayOutputStream();
-		
-		BitMatrix bitMatrix = writter.encode(id, BarcodeFormat.QR_CODE, 200, 200);
-		
+
+		BitMatrix bitMatrix = writter.encode(id, BarcodeFormat.QR_CODE, 400, 400);
+
 		MatrixToImageWriter.writeToStream(bitMatrix, "png", stream);
-		
-		
+
+
 		return Response.ok(stream.toByteArray(), "image/png").build();
 	}
 
