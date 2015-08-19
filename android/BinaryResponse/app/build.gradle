@@ -31,7 +31,9 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
-    compile ('com.ibm.mobile.foundation:ibmmobilefirstplatformfoundation:7.1.0.0@aar') {
-        transitive = true
-    }
+    compile group: 'com.ibm.mobile.foundation',
+            name: 'ibmmobilefirstplatformfoundation',
+            version: '7.1.0.0',
+            ext: 'aar',
+            transitive: true
 }
